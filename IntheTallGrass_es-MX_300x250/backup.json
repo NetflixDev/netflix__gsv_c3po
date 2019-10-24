@@ -1,0 +1,91 @@
+{
+    "containerId": "34fc83c0-54a2-40fe-b9dd-217f300b2d22",
+    "rootAssets": {
+        "text.Tune_In": {
+            "type": "text",
+            "id": "Tune_In",
+            "text": "See what’s next."
+        },
+        "text.CTA": {
+            "type": "text",
+            "id": "CTA",
+            "text": "WATCH NOW"
+        },
+        "bool.Template_Black": {
+            "type": "bool",
+            "id": "Template_Black",
+            "value": true
+        },
+        "text.Disclaimer": {
+            "type": "text",
+            "id": "Disclaimer",
+            "text": ""
+        },
+        "url.Exit_URL_Desktop": {
+            "type": "url",
+            "id": "Exit_URL_Desktop",
+            "url": "https://www.netflix.com/"
+        },
+        "url.Exit_URL_iOS": {
+            "type": "url",
+            "id": "Exit_URL_iOS",
+            "url": "https://www.netflix.com/"
+        },
+        "url.Exit_URL_Android": {
+            "type": "url",
+            "id": "Exit_URL_Android",
+            "url": "https://www.netflix.com/"
+        }
+    },
+    "assetGroups": [
+        {
+            "image.Single_Image_300x250_C20": {
+                "type": "image",
+                "id": "Single_Image_300x250_C20",
+                "url": "https://art-s.nflximg.net/50e0c/15722991e6d94c1af3d373cee1b67871d0450e0c.jpg",
+                "width": 567,
+                "height": 319
+            },
+            "image.Single_Image_300x600_C20": {
+                "type": "image",
+                "id": "Single_Image_300x600_C20",
+                "url": "https://art-s.nflximg.net/c856d/be4971876646031e1cc7d56021955780bb8c856d.jpg",
+                "width": 426,
+                "height": 597
+            },
+            "image.Single_Image_970x250_StoryArt_C20": {
+                "type": "image",
+                "id": "Single_Image_970x250_StoryArt_C20",
+                "url": "https://art-s.nflximg.net/98763/b9e32b9cd2ade046aa2c4d9e231732868d998763.jpg",
+                "width": 512,
+                "height": 288
+            },
+            "image.Single_Image_970x250_SDP_C20": {
+                "type": "image",
+                "id": "Single_Image_970x250_SDP_C20",
+                "url": "https://art-s.nflximg.net/98763/b9e32b9cd2ade046aa2c4d9e231732868d998763.jpg",
+                "width": 512,
+                "height": 288
+            },
+            "image.Title_Treatment_C20": {
+                "type": "image",
+                "id": "Title_Treatment_C20",
+                "url": "https://art-s.nflximg.net/b560c/0af52356249725aaa518af7991431df5704b560c.png",
+                "width": 306,
+                "height": 130
+            },
+            "image.Ratings_Bug_22x22": {
+                "type": "image",
+                "id": "Ratings_Bug_22x22",
+                "url": "",
+                "height": 22,
+                "width": 22
+            },
+            "text.Netflix_Title_Type": {
+                "type": "text",
+                "id": "Netflix_Title_Type",
+                "text": "Original"
+            }
+        }
+    ]
+}

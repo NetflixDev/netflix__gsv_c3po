@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="ad.size" content="width=300px,height=250px">
+	<title>MVR_300x250</title>
+	<link rel="preconnect" href="//ae.nflximg.net">
+	<link rel="preconnect" href="//art-s.nflximg.net">
+	<link rel="preconnect" href="//ads.netflix.com">
+	<link rel="preconnect" href="//ichnaea.netflix.com">
+	<link rel="stylesheet" href="styles.min.css" type="text/css">
+	<link rel="stylesheet" href="https://ae.nflximg.net/monet/fonts/netflixsans.css" type="text/css">
+	<script src="//s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<script src="http://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.18.5_23b0de6da0ee295131e32a500470610c_min.js">
+	</script>
+	<script src="https://ae.nflximg.net/monet/scripts/monet2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script src="nf-components.min.js"></script>
+</head>
+
+<body>
+	<monet-integrator></monet-integrator>
+	<netflix-fonts></netflix-fonts>
+	<div id='banner' class='banner'>
+		<netflix-flushed-ribbon width="300" height="250"></netflix-flushed-ribbon>
+		<img id='backup'>
+
+		<div id='title' class="title">
+			<netflix-img class="artworkImage first" data-dynamic-key="Main" width="300"></netflix-img>
+		</div>
+
+		<div id='panel' class="panel" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+			<div class="panelShadow" style=""></div>
+
+			<div class="innerPanel" style="">
+
+				<netflix-text id="tuneIn" data-dynamic-key="Headline" class="tuneIn">See what’s next.</netflix-text>
+
+				<netflix-brand-logo id="logo" class="logo" width="93">
+				</netflix-brand-logo>
+
+				<netflix-cta id="cta" class="cta" arrow="true" width="102" height="27" vertical-pad="1%" horizontal-pad="1%"
+					font-size="12" min-font-size="11"></netflix-cta>
+			</div>
+
+			<netflix-text id="disclaimer" class="disclaimer"></netflix-text>
+
+		</div>
+
+		<img id="ratingBug" class="ratingbug" src="">
+
+		<div id='bannerClick' class="bannerClick"></div>
+
+	</div>
+
+	<script src="bundle.min.js"></script>
+
+</body>
+
+</html>

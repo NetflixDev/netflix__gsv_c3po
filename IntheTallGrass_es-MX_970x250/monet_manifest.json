@@ -1,0 +1,43 @@
+{
+  "manifestVersion": "1",
+  "creativeName": "",
+  "agencyName": "",
+  "format": "HTML",
+  "locale": "en-US",
+  "physicalDimensions": [],
+  "assets": [
+    {
+      "name": "Main_Image",
+      "type": "image",
+      "value": "https://dnmi.a.nflxso.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAAE0fPJHy-1mDHTf9YvTTLnPv7JllXSHyjaPcFu_T4GVsnkGbgIXcFVNRXuFLic3-wAnz5kdCCDWGDtfRKGzBdcseu7T7X.jpg?r=414"
+    },
+    {
+      "name": "Title_Image",
+      "type": "image",
+      "value": "https://art-s.nflximg.net/0df2f/2e3a7a2f2a4c74fbd1c7c9e2d02edb301900df2f.png"
+    },
+    {
+      "name": "Headline_Text",
+      "type": "text",
+      "value": "Elige el mejor plan<br>y precio para ti.",
+      "isOptional": true
+    },
+    {
+      "name": "Description_Text",
+      "type": "text",
+      "value": "",
+      "isOptional": true
+    },
+    {
+      "name": "CTA_Text",
+      "type": "text",
+      "value": "SUSCRÍBETE",
+      "maxLength": 25
+    },
+    {
+      "name": "Exit_URL",
+      "type": "url",
+      "value": "https://www.netflix.com/"
+    }
+  ]
+}
