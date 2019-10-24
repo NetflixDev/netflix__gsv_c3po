@@ -1,5 +1,5 @@
 ##### RED Production
 
-## netflix__gsv_c3po
+## Netflix GSV C3PO
 
-Add project-specific notes here, in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+GSV containers that have been updated using the Netflix web-components
