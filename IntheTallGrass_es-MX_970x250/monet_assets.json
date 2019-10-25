@@ -4,7 +4,12 @@
   "agencyName": "",
   "format": "HTML",
   "locale": "en-US",
-  "physicalDimensions": [],
+  "physicalDimensions": [
+    {
+      "width": 970,
+      "height": 250
+    }
+  ],
   "assets": [
     {
       "name": "Main_Image",
