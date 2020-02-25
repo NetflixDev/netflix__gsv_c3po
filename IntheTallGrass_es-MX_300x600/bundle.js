@@ -21,7 +21,6 @@
   var isMultititle = false;
   var isStarted = false;
   var carousel;
-  var errorTimeout;
   var bannerClick;
   var monetIntegrator;
   var ribbon;
@@ -176,7 +175,6 @@
     Monet.trackEvent("MONET_IMPRESSION");
     sizeCta();
     startAnimation();
-    clearTimeout(errorTimeout);
   }
   function handleError(error) {
     console.log(error);
@@ -247,10 +245,6 @@
     logo = document.querySelector("netflix-brand-logo");
 
     addBannerClickListeners();
-
-    errorTimeout = setTimeout(function() {
-      handleError(new Error("timeout"));
-    }, 10000);
 
     Monet.trackEvent("MONET_INITIALIZED");
     buildAd();
