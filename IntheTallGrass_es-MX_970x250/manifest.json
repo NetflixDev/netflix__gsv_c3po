@@ -22,17 +22,17 @@
         },
         {
             "type": "url",
-            "id": "Exit_URL_Desktop",
+            "id": "EXIT_URL_Desktop",
             "url": "https://www.netflix.com/"
         },
         {
             "type": "url",
-            "id": "Exit_URL_iOS",
+            "id": "EXIT_URL_iOS",
             "url": "https://www.netflix.com/"
         },
         {
             "type": "url",
-            "id": "Exit_URL_Android",
+            "id": "EXIT_URL_Android",
             "url": "https://www.netflix.com/"
         }
     ],

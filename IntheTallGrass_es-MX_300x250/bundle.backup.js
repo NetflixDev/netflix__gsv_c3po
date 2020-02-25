@@ -406,7 +406,7 @@
             0,
             2
           ),
-          url: monetAssets.rootAssets["url.Exit_URL_Desktop"].url,
+          url: monetAssets.rootAssets["url.EXIT_URL_Desktop"].url,
           templateBlack: monetAssets.rootAssets["bool.Template_Black"].value,
           isOriginalTitle:
             d["text.Netflix_Title_Type"].text.toLowerCase() === "original",

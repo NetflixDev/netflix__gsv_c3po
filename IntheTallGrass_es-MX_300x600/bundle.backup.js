@@ -353,7 +353,7 @@
           ctaLocale: Monet.getComponentLocale('text.CTA').substr(0, 2),
           disclaimer: monetAssets.rootAssets['text.Disclaimer'].text,
           disclaimerLocale: Monet.getComponentLocale('text.Disclaimer').substr(0, 2),
-          url: monetAssets.rootAssets['url.Exit_URL_Desktop'].url,
+          url: monetAssets.rootAssets['url.EXIT_URL_Desktop'].url,
           templateBlack: monetAssets.rootAssets['bool.Template_Black'].value,
           isOriginalTitle: d['text.Netflix_Title_Type'].text.toLowerCase() === 'original',
           ratingBug: d['image.Ratings_Bug_22x22'].url

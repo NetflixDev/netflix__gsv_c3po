@@ -1,8 +1,8 @@
 {
     "rootAssets": {
-        "url.Exit_URL_Android": {
+        "url.EXIT_URL_Android": {
             "type": "url",
-            "id": "Exit_URL_Android",
+            "id": "EXIT_URL_Android",
             "url": "https://www.netflix.com/"
         },
         "bool.Template_Black": {
@@ -20,14 +20,14 @@
             "id": "Tune_In",
             "text": "Elige el mejor plan<br>y precio para ti."
         },
-        "url.Exit_URL_iOS": {
+        "url.EXIT_URL_iOS": {
             "type": "url",
-            "id": "Exit_URL_iOS",
+            "id": "EXIT_URL_iOS",
             "url": "https://www.netflix.com/"
         },
-        "url.Exit_URL_Desktop": {
+        "url.EXIT_URL_Desktop": {
             "type": "url",
-            "id": "Exit_URL_Desktop",
+            "id": "EXIT_URL_Desktop",
             "url": "https://www.netflix.com/"
         },
         "text.Disclaimer": {
@@ -142,9 +142,9 @@
             "text.CTA",
             "bool.Template_Black",
             "text.Disclaimer",
-            "url.Exit_URL_Desktop",
-            "url.Exit_URL_iOS",
-            "url.Exit_URL_Android"
+            "url.EXIT_URL_Desktop",
+            "url.EXIT_URL_iOS",
+            "url.EXIT_URL_Android"
         ],
         "es-MX": [
             "image.Single_Image_300x600",

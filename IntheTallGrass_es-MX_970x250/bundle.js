@@ -184,8 +184,8 @@
     showBackup();
   }
   function buildAd() {
-    var imgMetadata = Monet.getFieldMetadata("Main_Image");
-    var mainImgs = Monet.getFieldValue("Main_Image");
+    var imgMetadata = Monet.getFieldMetadata("MAIN_IMAGE");
+    var mainImgs = Monet.getFieldValue("MAIN_IMAGE");
     // conform img value to Array
     if (!Array.isArray(mainImgs)) {
       mainImgs = [mainImgs];
@@ -198,16 +198,16 @@
       mainImgs.forEach(function(img, i) {
         data[i] = {
           img: img,
-          text: Monet.getFieldValue("Headline_Text"),
+          text: Monet.getFieldValue("HEADLINE"),
           textLocale: Monet.getLocale(),
-          cta: Monet.getFieldValue("CTA_Text"),
+          cta: Monet.getFieldValue("CTA"),
           ctaLocale: Monet.getLocale(),
-          disclaimer: Monet.getFieldValue("Description_Text"),
+          disclaimer: Monet.getFieldValue("DESCRIPTION"),
           disclaimerLocale: Monet.getLocale(),
-          url: Monet.getFieldValue("Exit_URL"),
+          url: Monet.getFieldValue("EXIT_URL"),
           templateBlack: true,
           isOriginalTitle: true,
-          ratingBug: Monet.getFieldValue("Ratings_Bug_Image")
+          ratingBug: Monet.getFieldValue("RATINGS")
         };
       });
       injectData(data);
