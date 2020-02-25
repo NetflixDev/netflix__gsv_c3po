@@ -1,7 +1,8 @@
 {
   "manifestVersion": "1",
-  "creativeName": "",
+  "creativeName": "DV360 300x600 GSV",
   "agencyName": "",
+  "adPlatform": "DV360",
   "format": "HTML",
   "locale": "en-US",
   "physicalDimensions": [
