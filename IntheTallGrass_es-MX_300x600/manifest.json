@@ -17,13 +17,13 @@
       "value": "https://dnmi.a.nflxso.net/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAAE4EpMK8aYgERzucrjsAEb9WwQInUIw6LzJp1RIoqXxEivQqGXFuMn5S03bDVf7N7la_VAKAY6jLr-YxNmJKtdGqYWiLU9PeJtdZEjl0jeK8RcuwOwAWg.jpg?r=d32"
     },
     {
-      "name": "HEADLINE",
+      "name": "TUNE_IN_TEXT",
       "type": "text",
       "value": "Elige el mejor plan<br>y precio para ti.",
       "isOptional": true
     },
     {
-      "name": "DESCRIPTION",
+      "name": "DISCLAIMER",
       "type": "text",
       "value": "",
       "isOptional": true
@@ -38,6 +38,11 @@
       "name": "EXIT_URL",
       "type": "url",
       "value": "https://www.netflix.com/"
+    },
+    {
+      "name": "RATINGS",
+      "type": "image",
+      "value": ""
     }
   ]
 }

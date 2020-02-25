@@ -196,11 +196,11 @@
       mainImgs.forEach(function(img, i) {
         data[i] = {
           img: img,
-          text: Monet.getFieldValue("HEADLINE"),
+          text: Monet.getFieldValue("TUNE_IN_TEXT"),
           textLocale: Monet.getLocale(),
           cta: Monet.getFieldValue("CTA"),
           ctaLocale: Monet.getLocale(),
-          disclaimer: Monet.getFieldValue("DESCRIPTION"),
+          disclaimer: Monet.getFieldValue("DISCLAIMER"),
           disclaimerLocale: Monet.getLocale(),
           url: Monet.getFieldValue("EXIT_URL"),
           templateBlack: true,

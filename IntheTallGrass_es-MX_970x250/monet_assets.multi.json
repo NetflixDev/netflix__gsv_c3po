@@ -26,13 +26,13 @@
       "value": "https://art-s.nflximg.net/0df2f/2e3a7a2f2a4c74fbd1c7c9e2d02edb301900df2f.png"
     },
     {
-      "name": "HEADLINE",
+      "name": "TUNE_IN_TEXT",
       "type": "text",
       "value": "Elige el mejor plan<br>y precio para ti.",
       "isOptional": true
     },
     {
-      "name": "DESCRIPTION",
+      "name": "DISCLAIMER",
       "type": "text",
       "value": "",
       "isOptional": true

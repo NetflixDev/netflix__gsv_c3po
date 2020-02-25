@@ -21,13 +21,13 @@
       "isList": true
     },
     {
-      "name": "HEADLINE",
+      "name": "TUNE_IN_TEXT",
       "type": "text",
       "value": "Elige el mejor plan<br>y precio para ti.",
       "isOptional": true
     },
     {
-      "name": "DESCRIPTION",
+      "name": "DISCLAIMER",
       "type": "text",
       "value": "",
       "isOptional": true
