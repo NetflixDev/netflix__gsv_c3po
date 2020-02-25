@@ -1,94 +1,43 @@
 {
-    "rootComponents": [
-        {
-            "type": "text",
-            "id": "Tune_In",
-            "text": "See what’s next."
-        },
-        {
-            "type": "text",
-            "id": "CTA",
-            "text": "WATCH NOW"
-        },
-        {
-            "type": "bool",
-            "id": "Template_Black",
-            "value": true
-        },
-        {
-            "type": "text",
-            "id": "Disclaimer",
-            "text": "*Just add internet and data to watch on any device."
-        },
-        {
-            "type": "url",
-            "id": "EXIT_URL_Desktop",
-            "url": "https://www.netflix.com/"
-        },
-        {
-            "type": "url",
-            "id": "EXIT_URL_iOS",
-            "url": "https://www.netflix.com/"
-        },
-        {
-            "type": "url",
-            "id": "EXIT_URL_Android",
-            "url": "https://www.netflix.com/"
-        }
-    ],
-    "titleComponents": [
-        {
-            "type": "image",
-            "id": "Single_Image_300x250_C20",
-            "url": "https://art-s.nflximg.net/50e0c/15722991e6d94c1af3d373cee1b67871d0450e0c.jpg",
-            "width": 567,
-            "height": 319
-        },
-        {
-            "type": "image",
-            "id": "Single_Image_300x600_C20",
-            "url": "https://art-s.nflximg.net/c856d/be4971876646031e1cc7d56021955780bb8c856d.jpg",
-            "width": 426,
-            "height": 597
-        },
-        {
-            "type": "image",
-            "id": "Single_Image_970x250_StoryArt_C20",
-            "url": "https://art-s.nflximg.net/98763/b9e32b9cd2ade046aa2c4d9e231732868d998763.jpg",
-            "width": 512,
-            "height": 288
-        },
-        {
-            "type": "image",
-            "id": "Single_Image_970x250_SDP_C20",
-            "url": "https://art-s.nflximg.net/98763/b9e32b9cd2ade046aa2c4d9e231732868d998763.jpg",
-            "width": 512,
-            "height": 288
-        },
-        {
-            "type": "image",
-            "id": "Title_Treatment_C20",
-            "url": "https://art-s.nflximg.net/b560c/0af52356249725aaa518af7991431df5704b560c.png",
-            "width": 306,
-            "height": 130
-        },
-        {
-            "type": "image",
-            "id": "Ratings_Bug_22x22",
-            "url": "",
-            "height": 0,
-            "width": 0
-        },
-        {
-            "type": "text",
-            "id": "Netflix_Title_Type",
-            "text": "Licensed"
-        }
-    ],
-    "creativeName": "GLOBAL_MVR_C20_300x250_H5-ST_MLT_NoTag_Optimized",
-    "agencyName": "Netflix",
-    "minTitles": 1,
-    "maxTitles": 1,
-    "width": 300,
-    "height": 250
+  "manifestVersion": "1",
+  "creativeName": "",
+  "agencyName": "",
+  "format": "HTML",
+  "locale": "en-US",
+  "physicalDimensions": [
+    {
+      "width": 300,
+      "height": 250
+    }
+  ],
+  "assets": [
+    {
+      "name": "MAIN_IMAGE",
+      "type": "image",
+      "value": "https://dnmi.a.nflxso.net/api/v6/0DW6CdE4gYtYx8iy3aj8gs9WtXE/AAAAE74e2-0X_jtk9kekAywQN-B2Ob7Np-Hbd3_CCa8EWgu3ui84V6jd5gcDtIEUeAm59-IPPkFQssFFLOmUnuwSHhd7_c1E0ieULx4f3WTdv2cM_TvtYEx9.jpg?r=adb"
+    },
+    {
+      "name": "HEADLINE",
+      "type": "text",
+      "value": "Elige el mejor plan<br>y precio para ti.",
+      "isOptional": true
+    },
+    {
+      "name": "DESCRIPTION",
+      "type": "text",
+      "value": "",
+      "isOptional": true
+    },
+    {
+      "name": "CTA",
+      "type": "text",
+      "value": "SUSCRÍBETE",
+      "maxLength": 25
+    },
+    {
+      "name": "EXIT_URL",
+      "type": "url",
+      "value": "https://www.netflix.com/"
+    }
+  ]
 }
