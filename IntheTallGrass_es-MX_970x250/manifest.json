@@ -18,7 +18,7 @@
       "value": "https://dnmi.a.nflxso.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAAE0fPJHy-1mDHTf9YvTTLnPv7JllXSHyjaPcFu_T4GVsnkGbgIXcFVNRXuFLic3-wAnz5kdCCDWGDtfRKGzBdcseu7T7X.jpg?r=414"
     },
     {
-      "name": "Title_Image",
+      "name": "TITLE_TREATMENT_IMAGE",
       "type": "image",
       "value": "https://art-s.nflximg.net/0df2f/2e3a7a2f2a4c74fbd1c7c9e2d02edb301900df2f.png"
     },
